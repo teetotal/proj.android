@@ -12,12 +12,18 @@ LOCAL_MODULE := MyGame_shared
 LOCAL_MODULE_FILENAME := libMyGame
 
 LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
-                   $(LOCAL_PATH)/../../../Classes/AppDelegate.cpp \
-                   $(LOCAL_PATH)/../../../Classes/MainScene.cpp \
-                   $(LOCAL_PATH)/../../../Classes/ActionScene.cpp \
+                   $(LOCAL_PATH)/../../../Classes/library/achievement.cpp \
+                   $(LOCAL_PATH)/../../../Classes/library/farming.cpp \
+                   $(LOCAL_PATH)/../../../Classes/library/inventory.cpp \
+                   $(LOCAL_PATH)/../../../Classes/library/trade.cpp \
+                   $(LOCAL_PATH)/../../../Classes/library/util.cpp \
+                   $(LOCAL_PATH)/../../../Classes/logics.cpp \
                    $(LOCAL_PATH)/../../../Classes/ui/ui.cpp \
                    $(LOCAL_PATH)/../../../Classes/ui/ui_gacha.cpp \
-                   $(LOCAL_PATH)/../../../Classes/ui/ui_cultivation.cpp
+                   $(LOCAL_PATH)/../../../Classes/ui/ui_cultivation.cpp \
+                   $(LOCAL_PATH)/../../../Classes/AppDelegate.cpp \
+                   $(LOCAL_PATH)/../../../Classes/MainScene.cpp \
+                   $(LOCAL_PATH)/../../../Classes/ActionScene.cpp
 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
