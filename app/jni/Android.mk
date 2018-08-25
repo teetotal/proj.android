@@ -23,7 +23,8 @@ LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
                    $(LOCAL_PATH)/../../../Classes/ui/ui_cultivation.cpp \
                    $(LOCAL_PATH)/../../../Classes/AppDelegate.cpp \
                    $(LOCAL_PATH)/../../../Classes/MainScene.cpp \
-                   $(LOCAL_PATH)/../../../Classes/ActionScene.cpp
+                   $(LOCAL_PATH)/../../../Classes/ActionScene.cpp \
+                   $(LOCAL_PATH)/../../../Classes/FarmingScene.cpp
 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
