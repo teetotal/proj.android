@@ -12,7 +12,7 @@ LOCAL_MODULE := MyGame_shared
 LOCAL_MODULE_FILENAME := libMyGame
 
 LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
-                   $(LOCAL_PATH)/../../../Classes/library/achievement.cpp \
+                   $(LOCAL_PATH)/../../../Classes/library/quest.cpp \
                    $(LOCAL_PATH)/../../../Classes/library/farming.cpp \
                    $(LOCAL_PATH)/../../../Classes/library/inventory.cpp \
                    $(LOCAL_PATH)/../../../Classes/library/trade.cpp \
