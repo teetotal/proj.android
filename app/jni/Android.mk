@@ -26,7 +26,7 @@ LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
                    $(LOCAL_PATH)/../../../Classes/MainScene.cpp \
                    $(LOCAL_PATH)/../../../Classes/ActionScene.cpp \
                    $(LOCAL_PATH)/../../../Classes/AlertScene.cpp \
-                   $(LOCAL_PATH)/../../../Classes/HelloWorldScene.cpp
+                   $(LOCAL_PATH)/../../../Classes/FarmingScene.cpp
 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
